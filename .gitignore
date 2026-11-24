@@ -1,0 +1,21 @@
+# Virtual environment (rebuild with pip install -e ".[dev]")
+.venv/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Training outputs: large, and reproducible from configs
+runs/
+checkpoints/
+videos/
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyCharm settings
+.idea/
